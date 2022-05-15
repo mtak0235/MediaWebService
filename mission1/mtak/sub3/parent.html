@@ -15,10 +15,12 @@
             // window.open("open할 window", "자식창 이름", "팝업창 옵션");
             openWin = window.open("Child.html",
                     "childForm", "width=570, height=350, resizable = no, scrollbars = no");    
+            console.log(openWin.document);
         }
         
         function setChildText(){
-            openWin.document.getElementById("cInput").value = document.getElementById("pInput").value;
+            console.log(openWin.document);
+            openWin.document.getElementById("cInput").innerHTML = document.getElementById("pInput").innerHTML;
         }
  
    </script>
