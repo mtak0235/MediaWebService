@@ -4,26 +4,26 @@ function video_alert(e){
 
 function video_popup(e){
 	let win= window.open("popup.html", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400");
-	console.log("here");
-	console.log(win.document);
-	win.onload(() => {
-		console.log(win.document);
-		let com = win.document.querySelector('.video');
-		com.innerHTML = "hi";
-	});
-	// win.document.write(`<h1 id="video-title">${e.target.textContent}</h1>`);
+	win.document.write(`<h1 id="video-title">${e.target.textContent}</h1>`);
 }
 
-
 function video_layer_popup(e) {
-
+	let title = e.target.textContent;
+	let layer_popup = document.querySelector('#popup_bg');
+	let popup_title = document.querySelector('#popup-title');
+	popup_title.innerHTML = title;
+	layer_popup.style.display = 'block';
 }
 
 let video_titles = document.querySelectorAll('.video-title');
 for (let i = 0; i < video_titles.length; i++) {
-	video_titles[i].addEventListener('click', video_alert);
-	video_titles[i].addEventListener('click', video_popup);
+	// video_titles[i].addEventListener('click', video_alert);
+	// video_titles[i].addEventListener('click', video_popup);
 	video_titles[i].addEventListener('click', video_layer_popup);
 }
 
-
+let layer_popup_close = document.querySelector('.popup-close');
+layer_popup_close.addEventListener('click', () => {
+	let layer_popup = document.querySelector('#popup_bg');
+	layer_popup.style.display = 'none';
+});
