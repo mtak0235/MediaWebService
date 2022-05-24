@@ -15,6 +15,10 @@ function video_layer_popup(e) {
 	layer_popup.style.display = 'block';
 }
 
+function goDetail(e){
+	document.location.href = "http://127.0.0.1:5500/sub4/detail.html";
+}
+
 let video_titles = document.querySelectorAll('.video-title');
 for (let i = 0; i < video_titles.length; i++) {
 	video_titles[i].addEventListener('click', video_alert);
@@ -28,5 +32,7 @@ layer_popup_close.addEventListener('click', () => {
 	layer_popup.style.display = 'none';
 });
 
-let video = document.querySelector('figure');
-
+let video = document.querySelector('img');
+for (let i = 0; i < video.length; i++) {
+	video[i].addEventListener('click', goDetail());
+}
