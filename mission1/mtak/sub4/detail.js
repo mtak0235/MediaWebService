@@ -1,0 +1,10 @@
+let main_video_stream = document.querySelector(".main-video-stream");
+let img = document.createElement("img");
+img.src = localStorage.getItem("main-video-stream");
+img.style.width = "100%";
+img.style.height = "100%";
+main_video_stream.appendChild(img);
+let main_video_title = document.querySelector(".main-video-title");
+let main_video_content = document.querySelector(".main-video-content");
+main_video_title.textContent = localStorage.getItem("main-video-title");
+main_video_content.textContent = localStorage.getItem("main-video-content");

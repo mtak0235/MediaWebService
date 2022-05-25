@@ -15,8 +15,16 @@ function video_layer_popup(e) {
 	layer_popup.style.display = 'block';
 }
 
-function goDetail(e){
-	document.location.href = "http://127.0.0.1:5500/sub4/detail.html";
+function goDetail(e) {
+	let fig = e.target.closest('figure');
+	localStorage.setItem('main-video-stream', e.target.src);
+	localStorage.setItem('main-video-title', fig.querySelector('.video-title').textContent);
+	localStorage.setItem('main-video-content', fig.querySelector('.video-metadata').textContent);
+	
+	// localStorage.setItem('main-video-title', e.target.closet('figure'))
+	// location.assign("http://127.0.0.1:5500/sub4/detail.html");
+	location.href = "http://127.0.0.1:5500/sub4/detail.html";
+	// location.replace("http://127.0.0.1:5500/sub4/detail.html");
 }
 
 let video_titles = document.querySelectorAll('.video-title');
@@ -32,7 +40,7 @@ layer_popup_close.addEventListener('click', () => {
 	layer_popup.style.display = 'none';
 });
 
-let video = document.querySelector('img');
-for (let i = 0; i < video.length; i++) {
-	video[i].addEventListener('click', goDetail());
+let videos = document.querySelectorAll('img');
+for (let i = 0; i < videos.length; i++) {
+	videos[i].addEventListener('click', goDetail);
 }
