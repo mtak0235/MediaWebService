@@ -1,17 +1,17 @@
 .main-video {
-	width: 70vw;
+	width: 60%;
 	display: flex;
 	flex-direction: column;
-	margin-left: 1rem;
-	margin-top: 1rem;
+	margin:1rem;
 	float : left;
 }
 .playlist {
-	width: 25vw;
+	width: 35%;
 	height: 100vh;
 	float: right;
 	margin-top: 1rem;
 	margin-right: 1rem;
+	margin-left: 1rem;
 	display: flex;
 	flex-direction: column;
 	background-color: black;
@@ -20,9 +20,23 @@
 .sub-video {
 	width: 100%;
 	height: 18vh;
+	flex-basis: auto;
+	margin-left: 0;
+	margin-right: 0;
 	background-color: red;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+}
+
+.main-video-stream > img {
+	width: 100%;
+	height: 100%;
+}
+
+.playlist  img {
+	width: 40%;
+	height: 100%;
+	border: 1px solid black;
 }
 
 .main-video-stream {

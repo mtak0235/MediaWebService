@@ -1,0 +1,13 @@
+{
+	"playlist": [
+		{
+			"src": "http://127.0.0.1:5500/images/first.webp",
+			"title": " This is title1"
+		},
+		{
+			"src": "http://127.0.0.1:5500/images/first.webp",
+			"title": " This is title1"
+		}
+	]
+	
+}
