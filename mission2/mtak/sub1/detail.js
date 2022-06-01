@@ -24,7 +24,14 @@ document.addEventListener('DOMContentLoaded', function () { //DOM 생성 후 이
 				sub_img.src = item.src;
 				sub_video.appendChild(sub_img);
 				let sub_desc = document.createElement('figcaption');
-				sub_desc.textContent = item.title;
+				let sub_desc_title = document.createElement('div');
+				sub_desc_title.className = "sub-video-desc-title";
+				sub_desc_title.textContent = item.title;
+				sub_desc.appendChild(sub_desc_title);
+				// let sub_video_desc_content = document.createElement('div');
+				// sub_desc_content.className = "sub-video-desc-content";
+				// sub_desc_content.textContent = item.content;
+				// sub_desc.appendChild(sub_video_desc_content);
 				sub_video.appendChild(sub_desc);
 				playlist.appendChild(sub_video);
 			});
