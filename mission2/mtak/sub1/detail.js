@@ -1,3 +1,5 @@
+console.log("normal state");
+
 document.addEventListener('DOMContentLoaded', function () { //DOM 생성 후 이벤트 리스너 등록
 	console.log("after DOMContentLoaded");
 
