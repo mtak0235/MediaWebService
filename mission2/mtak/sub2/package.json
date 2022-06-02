@@ -1,0 +1,19 @@
+{
+  "name": "sub2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-start-command": "^1.0.1"
+  },
+  "dependencies": {
+    "videojs-playlist": "^5.0.0",
+    "videojs-youtube": "^2.6.1"
+  }
+}

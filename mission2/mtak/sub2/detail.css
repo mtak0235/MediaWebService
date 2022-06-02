@@ -1,0 +1,143 @@
+body {
+	display: flex;
+	flex-direction: row;
+}
+.main-video {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	margin:1rem;
+	float : left;
+}
+.playlist {
+	width: 35%;
+	height: 100vh;
+	float: right;
+	margin-top: 1rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+}
+
+.sub-video {
+	width: 100%;
+	height: 10vh;
+	flex-basis: auto;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: red;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.sub-video figcaption {
+	background-color: yellow;
+	/* display: inline-block; */
+	width: 50%;
+	height: 100%;
+	order: 2;
+
+}
+.sub-video img {
+	background-color: yellow;
+	/* display: inline-block; */
+	width: 45%;
+	order:1;
+	height: 100%;
+	border: 1px solid black;
+}
+
+/* div.sub-video-desc-title {
+	font-size: 100%;
+	color: white;
+	width: 80%;
+	height: 30%;
+	text-overflow: ellipsis;
+	overflow     : hidden; 
+	white-space  : nowrap;
+	margin-bottom: 0rem;
+	margin-top: 0rem;
+	line-height: 1.2;
+	height:1.5em;
+}
+div.sub-video-desc-content {
+	font-size: 80%;
+	color: gray;
+	width: 90%;
+	display: inline-block;
+	overflow     : hidden; 
+	text-overflow: ellipsis;
+	white-space: normal;
+	line-height: 1.2;
+	height:2.4em;
+	text-align: left;
+	word-wrap: break-word;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+} */
+
+.main-video-stream > img {
+	width: 100%;
+	height: 100%;
+}
+
+.main-video-stream {
+	width: 100%;
+	height: 45vh;
+	border: 1px solid black;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+.main-video-description {
+	display: inline-block;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.main-video-title {
+	font-size: 100%;
+	width: 80%;
+	height: 30%;
+	text-overflow: ellipsis;
+	overflow     : hidden; 
+	white-space  : nowrap;
+	margin-bottom: 0rem;
+	margin-top: 0rem;
+	line-height: 1.2;
+	height:1.5em;
+}
+.main-video-content {
+	font-size: 80%;
+	width: 90%;
+	display: inline-block;
+	text-align: left;
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+.showstep1 {
+	overflow     : hidden; 
+	text-overflow: ellipsis;
+	line-height: 1.2;
+	max-height: 4.8em;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.content{
+	white-space: normal;
+	line-height: 1.2;
+	word-wrap: break-word;
+}
+.hide{
+	display: none;
+}
