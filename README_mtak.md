@@ -8,6 +8,8 @@ web에 대한 이해 없이 spring으로 rest api만 만들왔다.
 90분동안 자율 개발하고 30분 동안 서로의 코드를 보면서 리뷰했다.
 github의 이슈 관리 툴을 사용하여 서로의 진행상황과 좋은 레퍼런스를 공유했다.
 
+<img width="1483" alt="스크린샷 2022-06-03 오후 4 21 35" src="https://user-images.githubusercontent.com/48946398/171823836-d8523340-9cfd-4d9e-8916-466c68278a42.png">
+<img width="734" alt="스크린샷 2022-05-30 오후 8 05 15" src="https://user-images.githubusercontent.com/48946398/171823944-f9db1924-3ef6-45c4-9ebe-0cd9af427315.png">
 
 ## 개발 기간
 2022.05.09 ~ 2022.06.02 
@@ -16,16 +18,26 @@ github의 이슈 관리 툴을 사용하여 서로의 진행상황과 좋은 레
 mission1에서는 영상 콘텐츠의 메인 화면을 구현한다.
 레이아웃,다양한 형태의 팝업(layer popup, alert, popup etc),이벤트 핸들링, 브라우저에서 히스토리를 남기는 매커니즘, DOM tree 조작, browser Storage 등에 대해 배워갈 수 있다. 
 
-[mission1 와꾸]
+<img width="1787" alt="1-1" src="https://user-images.githubusercontent.com/48946398/171824006-bb882f56-fe8c-42c4-b852-6900d79b0d8d.png">
+<img width="1788" alt="1-2" src="https://user-images.githubusercontent.com/48946398/171824086-1cba2575-549c-4d75-acb7-d5dae362cb74.png">
+<img width="1792" alt="1-3" src="https://user-images.githubusercontent.com/48946398/171824135-5e894be4-271a-4af9-b5d2-8a648b45b709.png">
+<img width="1792" alt="1-3-2" src="https://user-images.githubusercontent.com/48946398/171824148-837d47e1-1ec6-48c9-ae23-edbfd26945f5.png">
+<img width="1780" alt="1-3-3" src="https://user-images.githubusercontent.com/48946398/171824160-7674bb17-d7a1-4037-9e0c-7f55d2c0f77b.png">
+<img width="1791" alt="1-4" src="https://user-images.githubusercontent.com/48946398/171824201-5431ed6b-f377-48d1-923d-cdfb9838e817.png">
+<img width="1792" alt="1-4-2" src="https://user-images.githubusercontent.com/48946398/171824216-792b9313-15f7-49d7-8b28-8d6e47d6e179.png">
+<img width="1791" alt="1-5" src="https://user-images.githubusercontent.com/48946398/171824233-3e283802-9d37-4ad4-b687-fe442baaf516.png">
+<img width="1792" alt="1-5-2" src="https://user-images.githubusercontent.com/48946398/171824251-37dc6afd-7009-4439-bad9-bead0892d2af.png">
+
 
 mission2에서는 플레이어 상세 페이지를 구현한다.
 fetch()로 데이터 가져오는 법, video 태그 사용법, youtube api 사용법 등을 배워갈 수 있다. 
 
-[mission2 와꾸]
+<img width="1792" alt="2-1" src="https://user-images.githubusercontent.com/48946398/171824294-452d8d0a-ce32-45b0-a423-bf4faa40f439.png">
+<img width="1792" alt="2-2" src="https://user-images.githubusercontent.com/48946398/171824306-217fc377-965a-4851-85c3-eb440ed166b9.png">
 
 ## 프로젝트 일정
 
-[timezone]
+<img width="723" alt="timezone" src="https://user-images.githubusercontent.com/48946398/171824323-d28992e3-bb21-4443-a032-e717745d81f4.png">
 
 ## 후기
 * 웹페이지를 만들면서 서버가 어느 지점에 필요한지 다시 한번 생각해보게 되었다.
