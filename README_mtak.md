@@ -9,7 +9,6 @@ web에 대한 이해 없이 spring으로 rest api만 만들왔다.
 github의 이슈 관리 툴을 사용하여 서로의 진행상황과 좋은 레퍼런스를 공유했다.
 
 <img width="1483" alt="스크린샷 2022-06-03 오후 4 21 35" src="https://user-images.githubusercontent.com/48946398/171823836-d8523340-9cfd-4d9e-8916-466c68278a42.png">
-<img width="508" alt="log0" src="https://user-images.githubusercontent.com/48946398/171824575-8e125b31-e536-4976-a995-bad60dd59ac0.png">
 <img width="384" alt="log" src="https://user-images.githubusercontent.com/48946398/171824587-8dd2361f-3fe5-4c6c-af67-2716062f32b3.png">
 
 
